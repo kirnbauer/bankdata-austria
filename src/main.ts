@@ -1,6 +1,6 @@
 /*!
  * bankdata-austria
- * Copyright (C) 2022-2023 Markus Baumer <markus@baumer.dev>; 2023 Klaus Kirnbauer
+ * Copyright (C) 2023 Klaus Kirnbauer
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
