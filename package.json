@@ -1,10 +1,10 @@
 {
-  "name": "bankdata-germany",
-  "version": "1.2301.0",
-  "description": "Data and BIC Validator for German Banks",
-  "author": "Markus Baumer <markus@baumer.dev>",
-  "repository": "https://github.com/baumerdev/bankdata-germany",
-  "homepage": "https://baumerdev.github.io/bankdata-germany/",
+  "name": "bankdata-austria",
+  "version": "1.0.0",
+  "description": "Data and BIC Validator for Austrian Banks",
+  "author": "Klaus Kirnbauer <mail@kirnbauer.dev>",
+  "repository": "https://github.com/kirnbauer/bankdata-austria",
+  "homepage": "https://github.com/kirnbauer/bankdata-austria/",
   "license": "AGPL",
   "keywords": [
     "iban",
@@ -13,7 +13,7 @@
     "bank",
     "bic",
     "validator",
-    "germany",
+    "austria",
     "bankleitzahl",
     "blz"
   ],
@@ -38,7 +38,7 @@
     "test": "jest",
     "test:dev": "jest --watchAll",
     "test:coverage": "rimraf coverage && jest --coverage",
-    "clean": "rimraf dist docs coverage package bankdata-germany*.tgz",
+    "clean": "rimraf dist docs coverage package bankdata-austria*.tgz",
     "docs": "rimraf docs && typedoc --entryPoints src/main.ts --out docs/",
     "build": "tsc -p tsconfig.build.json",
     "build:all": "rimraf dist && npm run build && npm run esm-wrapper && npm run esbuild",
@@ -70,5 +70,10 @@
     "ts-node": "^10.9.1",
     "typedoc": "^0.24.7",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "fs": "^0.0.1-security",
+    "iconv-lite": "^0.6.3"
   }
 }

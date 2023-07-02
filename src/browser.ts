@@ -1,6 +1,6 @@
 /*!
- * bankdata-germany
- * Copyright (C) 2022-2023 Markus Baumer <markus@baumer.dev>
+ * bankdata-austria
+ * Copyright (C) 2023 Klaus Kirnbauer
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
@@ -21,18 +21,18 @@ import { isValidBIC } from "./lib/validate";
 
 declare global {
   interface Window {
-    bankdataGermany: {
+    bankdataAustria: {
       // eslint-disable-next-line @typescript-eslint/ban-types
       [name: string]: Function;
     };
   }
 }
 
-if (typeof window.bankdataGermany === "undefined") {
-  window.bankdataGermany = {};
+if (typeof window.bankdataAustria === "undefined") {
+  window.bankdataAustria = {};
 }
 
-window.bankdataGermany.bankDataByBBAN = bankDataByBBAN;
-window.bankdataGermany.bankDataByBLZ = bankDataByBLZ;
-window.bankdataGermany.bankDataByIBAN = bankDataByIBAN;
-window.bankdataGermany.isValidBIC = isValidBIC;
+window.bankdataAustria.bankDataByBBAN = bankDataByBBAN;
+window.bankdataAustria.bankDataByBLZ = bankDataByBLZ;
+window.bankdataAustria.bankDataByIBAN = bankDataByIBAN;
+window.bankdataAustria.isValidBIC = isValidBIC;

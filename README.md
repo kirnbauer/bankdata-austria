@@ -1,22 +1,18 @@
-# BankData-Germany: Data and BIC Validator for German Banks.
+# bankdata-austria: Data and BIC Validator for Austrian Banks.
 
-![CI: Lint, test and build](https://github.com/baumerdev/bankdata-germany/workflows/Lint,%20test%20and%20build/badge.svg?branch=main)
-[![Coverage Status](https://coveralls.io/repos/github/baumerdev/bankdata-germany/badge.svg?branch=main)](https://coveralls.io/github/baumerdev/bankdata-germany?branch=main)
+![CI: Lint, test and build](https://github.com/kirnbauer/bankdata-austria/workflows/Lint,%20test%20and%20build/badge.svg?branch=main)
 
-This TypeScript/JavaScript library contains bank data for German banks like
+This TypeScript/JavaScript library contains bank data for Austrian banks like
 names and BIC/Swift Codes. You can use it e.g to enhance
 user-interfaces/forms where a user enters an IBAN and you automatically fill
 out the bank-name and BIC fields.
 
-This library is not a validator for IBAN itself. So if you need validation
-take a look at the main project [IBANTools-Germany](https://baumerdev.github.io/ibantools-germany/).
+This library is not a validator for IBAN itself.
 
-> _Version 1.2301.* includes the data from 2023-03-06 until 2023-06-04 and from 2023-06-05 until 2023-09-03 and validation will be performed according to the data that is valid at your system time (data will change at 2023-06-05 midnight CET)._
-
-* [Installation](#installation)
-* [Usage](#usage)
-* [Data Source](#data-source)
-* [Package Version](#package-version)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Data Source](#data-source)
+- [Package Version](#package-version)
 
 ## Installation
 
@@ -27,9 +23,9 @@ explicitly install the latest version since the bank data may change multiple
 times a year.
 
 ```sh
-$ npm install --save bankdata-germany@latest
+$ npm install --save bankdata-austria@latest
 # or
-$ yarn add bankdata-germany@latest
+$ yarn add bankdata-austria@latest
 ```
 
 ### Browser / CDN
@@ -38,7 +34,7 @@ If you just want the functions in your browser, you can include the following
 pre-build file.
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/bankdata-germany/dist/build/browser.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bankdata-austria/dist/build/browser.js"></script>
 ```
 
 ## Usage
@@ -54,49 +50,54 @@ Note: If you use the BBAN/IBAN function no verification takes place. It just
 extracts the BLZ and checks if it exists.
 
 ```javascript
-import { bankDataByBLZ, bankDataByBBAN, bankDataByIBAN } from "bankdata-germany"
+import {
+  bankDataByBLZ,
+  bankDataByBBAN,
+  bankDataByIBAN,
+} from "bankdata-austria";
 
-bankDataByBLZ("10010010");
-bankDataByBBAN("100100100000138301");
-bankDataByIBAN("DE48100100100000138301");
+bankDataByBLZ("19043");
+bankDataByBBAN("02000123456");
+bankDataByIBAN("AT872011102000123456");
 // {
-//   bankName: "Postbank Ndl der Deutsche Bank",
-//   bic: "PBNKDEFFXXX",
-//   blz: "10010010"
+//   bankName: "Erste Bank der oesterreichischen Sparkassen AG",
+//   bic: "GIBAATWWXXX",
+//   blz: "20111"
 // }
 ```
 
 ### Validation
 
 You can validate BIC/Swift Codes. But even if those formats are international
-standards this library only validates data for Germany and will return false
+standards this library only validates data for Austria and will return false
 for all other countries.
 
 ```javascript
-import { isValidBIC } from "bankdata-germany"
+import { isValidBIC } from "bankdata-austria";
 
 isValidBIC("MARKDEFF"); // true
 isValidBIC("MARKDEFFXXX"); // true
 isValidBIC("foobar"); // false (invalid format)
-isValidBIC("BNPAFRPH"); // false (corrent but not a German BIC)
+isValidBIC("BNPAFRPH"); // false (corrent but not a Austrian BIC)
 ```
 
 ### Browser / CDN
 
-If you use the pre-build version, an object `bankdataGermany` is globally
+If you use the pre-build version, an object `bankdataAustria` is globally
 defined on `window` containing the functions.
 
 ```javascript
-bankdataGermany.bankDataByBLZ("10010010");
-bankdataGermany.bankDataByBBAN("100100100000138301");
-bankdataGermany.bankDataByIBAN("DE48100100100000138301");
-bankdataGermany.isValidBIC("MARKDEFF");
+bankdataAustria.bankDataByBLZ("10010010");
+bankdataAustria.bankDataByBBAN("100100100000138301");
+bankdataAustria.bankDataByIBAN("DE48100100100000138301");
+bankdataAustria.isValidBIC("MARKDEFF");
 ```
 
 ## Data Source
 
 Bank data is taken from the official website of
-[Deutsche Bundesbank](https://www.bundesbank.de/en/tasks/payment-systems/services/bank-sort-codes/download-bank-sort-codes-626218)
+[Österreichische Nationalbank
+](https://www.bundesbank.de/en/tasks/payment-systems/services/bank-sort-codes/download-bank-sort-codes-626218)
 who publishes updated data every quarter.
 
 These updates can contain technical changes (modifications in check digit
@@ -108,7 +109,7 @@ are updates that do not contain any relevant changes for this library at all.
 The version numbers are based on [Semantic Versioning](https://semver.org/)
 with modifications.
 
-> 1.2205.3
+> 1.0.0
 
 The first number representes the Major version. If this number increases there
 are updates that may not be backward compatiple and you have to adjust your

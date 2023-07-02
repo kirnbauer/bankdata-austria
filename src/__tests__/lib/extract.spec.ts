@@ -1,6 +1,6 @@
 /**
- * bankdata-germany
- * Copyright (C) 2022-2023 Markus Baumer <markus@baumer.dev>
+ * bankdata-austria
+ * Copyright (C) 2023 Klaus Kirnbauer
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
@@ -19,8 +19,8 @@
 import { extractBLZFromBBAN } from "../../lib/extract";
 
 describe("extractBLZFromBBAN", () => {
-  it("extracts BLZ 10220500 from BBAN 102205000009290701", () => {
-    expect(extractBLZFromBBAN("102205000009290701")).toEqual("10220500");
+  it("extracts BLZ 20111 from BBAN 2011100003429660", () => {
+    expect(extractBLZFromBBAN("2011100003429660")).toEqual("20111");
   });
 
   it("cannot extract data from invalid BBAN (wrong format)", () => {

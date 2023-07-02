@@ -1,6 +1,6 @@
 /**
- * bankdata-germany
- * Copyright (C) 2022-2023 Markus Baumer <markus@baumer.dev>
+ * bankdata-austria
+ * Copyright (C) 2023 Klaus Kirnbauer
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
@@ -21,13 +21,13 @@ import { ProbablyString } from "./types";
 /**
  * Extract  BLZ from BBAN
  *
- * @param bban German BBAN with 18 digits
+ * @param bban Austrian BBAN with 16 digits
  * @returns BLZ or null if invalid
  */
 export const extractBLZFromBBAN = (bban: ProbablyString): string | null => {
-  if (!bban || !bban.match(/^[1-9]\d{17}$/)) {
+  if (!bban || !bban.match(/^[0-9]\d{15}$/)) {
     return null;
   }
 
-  return bban.slice(0, 8);
+  return bban.slice(0, 5);
 };

@@ -1,6 +1,6 @@
 /**
- * bankdata-germany
- * Copyright (C) 2022-2023 Markus Baumer <markus@baumer.dev>
+ * bankdata-austria
+ * Copyright (C) 2023 Klaus Kirnbauer
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
@@ -19,14 +19,14 @@
 import { isValidBIC } from "../../lib/validate";
 
 describe("isValidBIC", () => {
-  it("returns true for BIC MARKDEF1100", () => {
-    expect(isValidBIC("MARKDEF1100")).toEqual(true);
+  it("returns true for BIC GIBAATWWXXX", () => {
+    expect(isValidBIC("GIBAATWWXXX")).toEqual(true);
   });
-  it("returns true for BIC PBNKDEFFXXX", () => {
-    expect(isValidBIC("PBNKDEFFXXX")).toEqual(true);
+  it("returns true for BIC BKAUATWW", () => {
+    expect(isValidBIC("BKAUATWW")).toEqual(true);
   });
-  it("returns true for BIC PBNKDEFF", () => {
-    expect(isValidBIC("PBNKDEFF")).toEqual(true);
+  it("returns true for BIC RZOOAT2L016", () => {
+    expect(isValidBIC("RZOOAT2L016")).toEqual(true);
   });
 
   it("returns false for null", () => {

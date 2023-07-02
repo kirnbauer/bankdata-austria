@@ -1,8 +1,8 @@
 /*!
  * @jest-environment jsdom
  *
- * bankdata-germany
- * Copyright (C) 2022-2023 Markus Baumer <markus@baumer.dev>
+ * bankdata-austria
+ * Copyright (C) 2023 Klaus Kirnbauer
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
@@ -22,16 +22,16 @@ import "../browser";
 
 /* eslint-disable @typescript-eslint/no-unsafe-call */
 describe("browser", () => {
-  it("adds function bankdataGermany.bankDataByBBAN to window", () => {
-    expect(typeof window.bankdataGermany.bankDataByBBAN).toBe("function");
+  it("adds function bankdataAustria.bankDataByBBAN to window", () => {
+    expect(typeof window.bankdataAustria.bankDataByBBAN).toBe("function");
   });
-  it("adds function bankdataGermany.bankDataByBLZ to window", () => {
-    expect(typeof window.bankdataGermany.bankDataByBLZ).toBe("function");
+  it("adds function bankdataAustria.bankDataByBLZ to window", () => {
+    expect(typeof window.bankdataAustria.bankDataByBLZ).toBe("function");
   });
-  it("adds function bankdataGermany.bankDataByIBAN to window", () => {
-    expect(typeof window.bankdataGermany.bankDataByIBAN).toBe("function");
+  it("adds function bankdataAustria.bankDataByIBAN to window", () => {
+    expect(typeof window.bankdataAustria.bankDataByIBAN).toBe("function");
   });
-  it("adds function bankdataGermany.isValidBIC to window", () => {
-    expect(typeof window.bankdataGermany.isValidBIC).toBe("function");
+  it("adds function bankdataAustria.isValidBIC to window", () => {
+    expect(typeof window.bankdataAustria.isValidBIC).toBe("function");
   });
 });
