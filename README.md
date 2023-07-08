@@ -1,13 +1,8 @@
 # bankdata-austria: Data and BIC Validator for Austrian Banks.
 
-![CI: Lint, test and build](https://github.com/kirnbauer/bankdata-austria/workflows/Lint,%20test%20and%20build/badge.svg?branch=main)
+This TypeScript/JavaScript library is based on the code from [baumerdev](https://github.com/baumerdev/bankdata-germany) and provides bank data for Austrian banks, including names and BIC/SWIFT codes. It can be used to improve user interfaces and forms, where users enter an IBAN and the library automatically populates the bank name and BIC fields.
 
-This TypeScript/JavaScript library contains bank data for Austrian banks like
-names and BIC/Swift Codes. You can use it e.g to enhance
-user-interfaces/forms where a user enters an IBAN and you automatically fill
-out the bank-name and BIC fields.
-
-This library is not a validator for IBAN itself.
+Please note that this library does not serve as an IBAN validator.
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -15,18 +10,6 @@ This library is not a validator for IBAN itself.
 - [Package Version](#package-version)
 
 ## Installation
-
-### Package Manager
-
-Add it to your project with your package manager like npm or yarn. You should
-explicitly install the latest version since the bank data may change multiple
-times a year.
-
-```sh
-$ npm install --save bankdata-austria@latest
-# or
-$ yarn add bankdata-austria@latest
-```
 
 ### Browser / CDN
 
@@ -97,12 +80,7 @@ bankdataAustria.isValidBIC("MARKDEFF");
 
 Bank data is taken from the official website of
 [Österreichische Nationalbank
-](https://www.bundesbank.de/en/tasks/payment-systems/services/bank-sort-codes/download-bank-sort-codes-626218)
-who publishes updated data every quarter.
-
-These updates can contain technical changes (modifications in check digit
-methods) and content changes (BLZ, bank names, etc). It is possible that there
-are updates that do not contain any relevant changes for this library at all.
+](https://www.oenb.at/Statistik/Klassifikationen/SEPA-Zahlungsverkehrs-Verzeichnis.html).
 
 ## Package Version
 
