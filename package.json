@@ -1,6 +1,6 @@
 {
   "name": "bankdata-austria",
-  "version": "1.0.0",
+  "version": "1.2300.0",
   "description": "Data and BIC Validator for Austrian Banks",
   "author": "Klaus Kirnbauer <mail@kirnbauer.dev>",
   "repository": "https://github.com/kirnbauer/bankdata-austria",

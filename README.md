@@ -96,7 +96,7 @@ Bank data is taken from the official website of
 The version numbers are based on [Semantic Versioning](https://semver.org/)
 with modifications.
 
-> 1.0.0
+> 1.2300.0
 
 The first number representes the Major version. If this number increases there
 are updates that may not be backward compatiple and you have to adjust your
