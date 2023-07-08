@@ -1,5 +1,6 @@
 # bankdata-austria: Data and BIC Validator for Austrian Banks.
 
+[![Lint, test and build](https://github.com/kirnbauer/bankdata-austria/actions/workflows/lint-test-build.yml/badge.svg)](https://github.com/kirnbauer/bankdata-austria/actions/workflows/lint-test-build.yml)  
 This TypeScript/JavaScript library is based on the code from [baumerdev](https://github.com/baumerdev/bankdata-germany) and provides bank data for Austrian banks, including names and BIC/SWIFT codes. It can be used to improve user interfaces and forms, where users enter an IBAN and the library automatically populates the bank name and BIC fields.
 
 Please note that this library does not serve as an IBAN validator.
@@ -10,6 +11,14 @@ Please note that this library does not serve as an IBAN validator.
 - [Package Version](#package-version)
 
 ## Installation
+
+### Package Manager
+
+To add this library to your project, use your package manager such as npm. It is recommended to install the latest version explicitly.
+
+```sh
+$ npm install --save bankdata-austria@latest
+```
 
 ### Browser / CDN
 
