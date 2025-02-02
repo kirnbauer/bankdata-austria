@@ -95,7 +95,7 @@ export const isBICInData = (bic: string): boolean => {
 
   return (
     typeof Object.values(currentBank).find(
-      (bank) => bank[1] && bank[1] === searchBIC
+      (bank) => bank[1] && bank[1] === searchBIC,
     ) !== "undefined"
   );
 };
