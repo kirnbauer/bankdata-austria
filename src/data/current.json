@@ -27,6 +27,14 @@
     "BAWAG P.S.K. Bank für Arbeit und Wirtschaft und Österreichische Postsparkasse Aktiengesellschaft",
     "BAWAATWWXXX"
   ],
+  "14001": [
+    "BAWAG P.S.K. Bank für Arbeit und Wirtschaft und Österreichische Postsparkasse Aktiengesellschaft",
+    "BAWAATWWXXX"
+  ],
+  "14002": [
+    "BAWAG P.S.K. Bank für Arbeit und Wirtschaft und Österreichische Postsparkasse Aktiengesellschaft",
+    "BAWAATWWXXX"
+  ],
   "14200": [
     "BAWAG P.S.K. Bank für Arbeit und Wirtschaft und Österreichische Postsparkasse Aktiengesellschaft",
     "BAWAATWWXXX"
@@ -348,7 +356,7 @@
     "GEBAATWWXXX"
   ],
   "18120": [
-    "paybox Bank AG",
+    "A1 Bank AG",
     "PABXATW1XXX"
   ],
   "18130": [
@@ -367,17 +375,9 @@
     "VOLKSBANK WIEN AG",
     "VBOEATWWXXX"
   ],
-  "18170": [
-    "KA Finanz AG",
-    "OKOMATWWXXX"
-  ],
   "18190": [
     "BAWAG P.S.K. Bank für Arbeit und Wirtschaft und Österreichische Postsparkasse Aktiengesellschaft",
     "BAWAATWWXXX"
-  ],
-  "18250": [
-    "UniCredit Bank AG, Zweigniederlassung Wien",
-    "CAIBATWWXXX"
   ],
   "18400": [
     "Generali Bank AG",
@@ -432,7 +432,7 @@
     "DIRAAT2SXXX"
   ],
   "19340": [
-    "European American Investment Bank Aktiengesellschaft",
+    "European American Investment Bank Aktiengesellschaft in Abwicklung",
     "EUAAATWWXXX"
   ],
   "19360": [
@@ -446,10 +446,6 @@
   "19390": [
     "BMW Austria Bank GmbH",
     "BMASAT21XXX"
-  ],
-  "19410": [
-    "Mercedes-Benz Bank GmbH",
-    "WELCATW1XXX"
   ],
   "19420": [
     "RCI Banque SA, Niederlassung Österreich",
@@ -471,16 +467,12 @@
     "flatexDEGIRO Bank AG",
     "BIIWATWWXXX"
   ],
-  "19490": [
-    "Mizuho Bank Europe N.V. Vienna Branch",
-    "MHCBATWWXXX"
-  ],
   "19510": [
-    "Zürcher Kantonalbank Österreich AG",
+    "LLB Bank AG",
     "PIAGAT2SXXX"
   ],
   "19515": [
-    "Opel Bank S.A. Niederlassung Österreich",
+    "Stellantis Bank SA Niederlassung Österreich",
     "OPBAATW2XXX"
   ],
   "19520": [
@@ -643,16 +635,12 @@
     "Sparkasse Salzkammergut AG",
     "SKBIAT21XXX"
   ],
-  "20315": [
-    "Allgemeine Sparkasse Oberösterreich Bankaktiengesellschaft",
-    "ASPKAT2LXXX"
-  ],
   "20317": [
     "Sparkasse Lambach Bank Aktiengesellschaft",
     "SPLAAT21XXX"
   ],
   "20320": [
-    "Allgemeine Sparkasse Oberösterreich Bankaktiengesellschaft",
+    "Sparkasse Oberösterreich Bank AG",
     "ASPKAT2LXXX"
   ],
   "20326": [
@@ -836,8 +824,8 @@
     "RLNWATWW123"
   ],
   "32127": [
-    "Raiffeisenbank Thayatal-Mitte eGen",
-    "RLNWATW1127"
+    "Raiffeisenbank im Thayatal eGen",
+    "RLNWATWWWTH"
   ],
   "32145": [
     "Raiffeisenkasse Ernstbrunn eGen",
@@ -992,8 +980,8 @@
     "RLNWATWW939"
   ],
   "32660": [
-    "Raiffeisenkasse Pottschach registrierte Genossenschaft mit beschränkter Haftung",
-    "RLNWATW1660"
+    "Raiffeisenbank Region Wiener Alpen eGen",
+    "RLNWATWWASP"
   ],
   "32663": [
     "Raiffeisenbank im Weinviertel eGen",
@@ -1048,7 +1036,7 @@
     "RLNWATW1901"
   ],
   "32904": [
-    "Raiffeisenbank Waidhofen a. d. Thaya eGen",
+    "Raiffeisenbank im Thayatal eGen",
     "RLNWATWWWTH"
   ],
   "32906": [
@@ -1100,12 +1088,12 @@
     "RLBBAT2EXXX"
   ],
   "33002": [
-    "Raiffeisenbank Seewinkel-Hansag eGen",
-    "RLBBAT2E002"
+    "Raiffeisen Bezirksbank Neusiedl Ost eGen",
+    "RLBBAT2E038"
   ],
   "33004": [
-    "Raiffeisenbank Neusiedlersee-Seewinkel eGen",
-    "RLBBAT2E033"
+    "Raiffeisen Bezirksbank Neusiedl Ost eGen",
+    "RLBBAT2E038"
   ],
   "33010": [
     "Raiffeisenbank Region Deutschkreutz-Horitschon eGen",
@@ -1124,16 +1112,16 @@
     "RLBBAT2E027"
   ],
   "33028": [
-    "Raiffeisenbank Heideboden eGen",
-    "RLBBAT2E090"
+    "Raiffeisen Bezirksbank Neusiedl Ost eGen",
+    "RLBBAT2E038"
   ],
   "33031": [
     "Raiffeisenbank Region Deutschkreutz-Horitschon eGen",
     "RLBBAT2E010"
   ],
   "33033": [
-    "Raiffeisenbank Neusiedlersee-Seewinkel eGen",
-    "RLBBAT2E033"
+    "Raiffeisen Bezirksbank Neusiedl Ost eGen",
+    "RLBBAT2E038"
   ],
   "33034": [
     "Raiffeisen Regionalbank Güssing-Jennersdorf eGen",
@@ -1144,7 +1132,7 @@
     "RLBBAT2EXXX"
   ],
   "33038": [
-    "Raiffeisenbank Dreiländereck Bgld-Nord eGen",
+    "Raiffeisen Bezirksbank Neusiedl Ost eGen",
     "RLBBAT2E038"
   ],
   "33041": [
@@ -1172,7 +1160,7 @@
     "RLBBAT2E010"
   ],
   "33063": [
-    "Raiffeisenbank Dreiländereck Bgld-Nord eGen",
+    "Raiffeisen Bezirksbank Neusiedl Ost eGen",
     "RLBBAT2E038"
   ],
   "33065": [
@@ -1184,8 +1172,8 @@
     "RLBBAT2E125"
   ],
   "33071": [
-    "Raiffeisenbank Neusiedlersee-Seewinkel eGen",
-    "RLBBAT2E033"
+    "Raiffeisen Bezirksbank Neusiedl Ost eGen",
+    "RLBBAT2E038"
   ],
   "33072": [
     "Raiffeisenbank Region Parndorf eGen",
@@ -1204,23 +1192,23 @@
     "RLBBAT2E012"
   ],
   "33090": [
-    "Raiffeisenbank Heideboden eGen",
-    "RLBBAT2E090"
+    "Raiffeisen Bezirksbank Neusiedl Ost eGen",
+    "RLBBAT2E038"
   ],
   "33092": [
     "Raiffeisenbank Neusiedlersee-Hügelland eGen",
     "RLBBAT2E012"
   ],
   "33104": [
-    "Raiffeisenbank Seewinkel-Hansag eGen",
-    "RLBBAT2E002"
+    "Raiffeisen Bezirksbank Neusiedl Ost eGen",
+    "RLBBAT2E038"
   ],
   "33106": [
     "Raiffeisenbank Weiden am See eGen",
     "RLBBAT2E106"
   ],
   "33114": [
-    "Raiffeisenbank Dreiländereck Bgld-Nord eGen",
+    "Raiffeisen Bezirksbank Neusiedl Ost eGen",
     "RLBBAT2E038"
   ],
   "33116": [
@@ -1228,8 +1216,8 @@
     "RLBBAT2E116"
   ],
   "33118": [
-    "Raiffeisenbank Seewinkel-Hansag eGen",
-    "RLBBAT2E002"
+    "Raiffeisen Bezirksbank Neusiedl Ost eGen",
+    "RLBBAT2E038"
   ],
   "33124": [
     "Raiffeisenbank Burgenland Mitte eGen",
@@ -1276,7 +1264,7 @@
     "RZOOAT2L081"
   ],
   "34083": [
-    "Raiffeisenbank Edt-Lambach eGen",
+    "Raiffeisenbank Region Traun-Alm eGen",
     "RZOOAT2L083"
   ],
   "34100": [
@@ -1316,7 +1304,7 @@
     "RZOOAT2L129"
   ],
   "34135": [
-    "Raiffeisenbank Gramastetten eGen",
+    "Raiffeisenbank Gramastetten Rodltal eGen",
     "RZOOAT2L135"
   ],
   "34155": [
@@ -1336,8 +1324,8 @@
     "RZOOAT2L111"
   ],
   "34165": [
-    "Raiffeisenbank Hinterstoder und Vorderstoder eGen",
-    "RZOOAT2L165"
+    "Raiffeisenbank Pyhrn-Priel eGen",
+    "RZOOAT2L491"
   ],
   "34170": [
     "Raiffeisenbank Linz-Land West eGen",
@@ -1448,8 +1436,8 @@
     "RZOOAT2L380"
   ],
   "34383": [
-    "Raiffeisenbank Mittleres Rodltal eGen",
-    "RZOOAT2L383"
+    "Raiffeisenbank Gramastetten Rodltal eGen",
+    "RZOOAT2L135"
   ],
   "34390": [
     "Raiffeisenbank Ohlsdorf eGen",
@@ -1488,7 +1476,7 @@
     "RZOOAT2L081"
   ],
   "34442": [
-    "Raiffeisenbank Peuerbach eGen",
+    "Raiffeisenbank Region Peuerbach eGen",
     "RZOOAT2L442"
   ],
   "34450": [
@@ -1512,7 +1500,7 @@
     "RZOOAT2L380"
   ],
   "34491": [
-    "Raiffeisenbank Windischgarsten eGen",
+    "Raiffeisenbank Pyhrn-Priel eGen",
     "RZOOAT2L491"
   ],
   "34510": [
@@ -1520,8 +1508,8 @@
     "RZOOAT2L510"
   ],
   "34521": [
-    "Raiffeisenbank St. Agatha eGen",
-    "RZOOAT2L521"
+    "Raiffeisenbank Region Peuerbach eGen",
+    "RZOOAT2L442"
   ],
   "34522": [
     "Raiffeisenbank St.Florian am Inn eGen",
@@ -1620,8 +1608,8 @@
     "RZOOAT2L747"
   ],
   "34750": [
-    "Raiffeisenbank Bad Wimsbach-Neydharting eGen",
-    "RZOOAT2L750"
+    "Raiffeisenbank Region Traun-Alm eGen",
+    "RZOOAT2L083"
   ],
   "34770": [
     "Raiffeisenbank Wels Süd eGen",
@@ -1764,7 +1752,7 @@
     "RVSAAT2S026"
   ],
   "35027": [
-    "Raiffeisenbank Hüttau-St. Martin-Niedernfritz registrierte Genossenschaft mit beschränkter Haftung",
+    "Raiffeisenbank Hüttau-St. Martin eGen",
     "RVSAAT2S027"
   ],
   "35028": [
@@ -1916,7 +1904,7 @@
     "RVSAAT2S039"
   ],
   "35071": [
-    "Raiffeisenbank Wals-Himmelreich registrierte Genossenschaft mit beschränkter Haftung",
+    "Raiffeisenbank Wals-Himmelreich eGen",
     "RVSAAT2S071"
   ],
   "35072": [
@@ -1988,7 +1976,7 @@
     "RVSAAT2S026"
   ],
   "35127": [
-    "Raiffeisenbank Hüttau-St. Martin-Niedernfritz registrierte Genossenschaft mit beschränkter Haftung",
+    "Raiffeisenbank Hüttau-St. Martin eGen",
     "RVSAAT2S027"
   ],
   "35130": [
@@ -2128,7 +2116,7 @@
     "RVSAAT2S063"
   ],
   "35371": [
-    "Raiffeisenbank Wals-Himmelreich registrierte Genossenschaft mit beschränkter Haftung",
+    "Raiffeisenbank Wals-Himmelreich eGen",
     "RVSAAT2S071"
   ],
   "35404": [
@@ -2152,7 +2140,7 @@
     "RZTIAT22XXX"
   ],
   "36200": [
-    "Raiffeisenbank Absam-Thaur eGen",
+    "Raiffeisenbank Absam-Thaur-Volders eGen",
     "RZTIAT22200"
   ],
   "36201": [
@@ -2164,8 +2152,8 @@
     "RZTIAT22203"
   ],
   "36207": [
-    "Raiffeisenbank Arzl im Pitztal und Imsterberg registrierte Genossenschaft mit beschränkter Haftung",
-    "RZTIAT22207"
+    "Raiffeisenbank Pitztal eGen",
+    "RZTIAT22353"
   ],
   "36209": [
     "Raiffeisenbank Tirol Mitte West eGen",
@@ -2196,8 +2184,8 @@
     "RBRTAT22XXX"
   ],
   "36223": [
-    "Raiffeisenbank Erl eGen",
-    "RZTIAT22223"
+    "Raiffeisen Bezirksbank Kufstein eGen",
+    "RZTIAT22358"
   ],
   "36229": [
     "Raiffeisen Regionalbank Fügen-Kaltenbach-Zell eGen",
@@ -2216,11 +2204,11 @@
     "RZTIAT22358"
   ],
   "36240": [
-    "Raiffeisenkasse Hart eGen",
-    "RZTIAT22240"
+    "Raiffeisenbank Hippach-Hart eGen",
+    "RZTIAT22241"
   ],
   "36241": [
-    "Raiffeisenbank Hippach und Umgebung eGen",
+    "Raiffeisenbank Hippach-Hart eGen",
     "RZTIAT22241"
   ],
   "36245": [
@@ -2248,19 +2236,19 @@
     "RZTIAT22336"
   ],
   "36262": [
-    "Raiffeisenbank Kirchdorf Tirol registrierte Genossenschaft mit beschränkter Haftung",
-    "RZTIAT22262"
+    "Raiffeisenbank Kössen-Kirchdorf eGen",
+    "RZTIAT22264"
   ],
   "36263": [
     "Raiffeisenbank Kitzbühel - St. Johann eGen",
     "RZTIAT22263"
   ],
   "36264": [
-    "Raiffeisenbank Kössen-Schwendt eGen",
+    "Raiffeisenbank Kössen-Kirchdorf eGen",
     "RZTIAT22264"
   ],
   "36265": [
-    "Raiffeisen Regionalbank Schwaz eGen",
+    "Raiffeisen Regionalbank Schwaz-Wattens eGen",
     "RZTIAT22322"
   ],
   "36267": [
@@ -2276,7 +2264,7 @@
     "RZTIAT22339"
   ],
   "36272": [
-    "Raiffeisen Regionalbank Schwaz eGen",
+    "Raiffeisen Regionalbank Schwaz-Wattens eGen",
     "RZTIAT22322"
   ],
   "36273": [
@@ -2304,7 +2292,7 @@
     "RZTIAT22281"
   ],
   "36283": [
-    "Raiffeisenbank Nauders eGen",
+    "Raiffeisenbank Serfaus-Fiss-Ried-Nauders eGen",
     "RZTIAT22283"
   ],
   "36285": [
@@ -2324,7 +2312,7 @@
     "RBRTAT22XXX"
   ],
   "36306": [
-    "Raiffeisenbank Serfaus-Fiss-Ried eGen",
+    "Raiffeisenbank Serfaus-Fiss-Ried-Nauders eGen",
     "RZTIAT22315"
   ],
   "36310": [
@@ -2336,7 +2324,7 @@
     "RZTIAT22314"
   ],
   "36315": [
-    "Raiffeisenbank Serfaus-Fiss-Ried eGen",
+    "Raiffeisenbank Serfaus-Fiss-Ried-Nauders eGen",
     "RZTIAT22315"
   ],
   "36316": [
@@ -2348,11 +2336,11 @@
     "RZTIAT22245"
   ],
   "36320": [
-    "Raiffeisenkasse Schlitters, Bruck und Straß registrierte Genossenschaft mit beschränkter Haftung",
+    "Raiffeisenkasse Schlitters, Bruck und Strass registrierte Genossenschaft mit beschränkter Haftung",
     "RZTIAT22320"
   ],
   "36322": [
-    "Raiffeisen Regionalbank Schwaz eGen",
+    "Raiffeisen Regionalbank Schwaz-Wattens eGen",
     "RZTIAT22322"
   ],
   "36324": [
@@ -2376,7 +2364,7 @@
     "RZTIAT22336"
   ],
   "36337": [
-    "Raiffeisenbank Absam-Thaur eGen",
+    "Raiffeisenbank Absam-Thaur-Volders eGen",
     "RZTIAT22200"
   ],
   "36339": [
@@ -2392,20 +2380,20 @@
     "RBRTAT22XXX"
   ],
   "36347": [
-    "Raiffeisenkasse Volders und Umgebung registrierte Genossenschaft mit beschränkter Haftung",
-    "RZTIAT22347"
+    "Raiffeisenbank Absam-Thaur-Volders eGen",
+    "RZTIAT22200"
   ],
   "36349": [
     "RaiffeisenBank St. Ulrich - Waidring eGen",
     "RZTIAT22349"
   ],
   "36351": [
-    "Raiffeisenbank Wattens und Umgebung, registrierte Genossenschaft mit beschränkter Haftung",
-    "RZTIAT22351"
+    "Raiffeisen Regionalbank Schwaz-Wattens eGen",
+    "RZTIAT22322"
   ],
   "36352": [
-    "Raiffeisenkasse Weerberg registrierte Genossenschaft mit beschränkter Haftung",
-    "RZTIAT22352"
+    "Raiffeisen Regionalbank Achensee eGen",
+    "RZTIAT22218"
   ],
   "36353": [
     "Raiffeisenbank Pitztal eGen",
@@ -2440,15 +2428,15 @@
     "RZTIAT22378"
   ],
   "36368": [
-    "Raiffeisenbank Sillian eGen",
+    "Raiffeisenbank Sillian - Lienzer Talboden eGen",
     "RZTIAT22368"
   ],
   "36373": [
-    "Raiffeisenkasse Lienzer Talboden eGen",
-    "RZTIAT22373"
+    "Raiffeisenbank Sillian - Lienzer Talboden eGen",
+    "RZTIAT22368"
   ],
   "36374": [
-    "Raiffeisenbank Sillian eGen",
+    "Raiffeisenbank Sillian - Lienzer Talboden eGen",
     "RZTIAT22368"
   ],
   "36378": [
@@ -2460,7 +2448,7 @@
     "RZTIAT22386"
   ],
   "36387": [
-    "Raiffeisenbank Sillian eGen",
+    "Raiffeisenbank Sillian - Lienzer Talboden eGen",
     "RZTIAT22368"
   ],
   "36791": [
@@ -2484,8 +2472,8 @@
     "RVVGAT2B422"
   ],
   "37405": [
-    "Raiffeisenbank Au eGen",
-    "RVVGAT2B405"
+    "Raiffeisenbank Mittel- und Hinterbregenzerwald eGen",
+    "RVVGAT2B423"
   ],
   "37406": [
     "Raiffeisenbank Bezau-Mellau-Bizau eGen",
@@ -2504,7 +2492,7 @@
     "RVVGAT2B422"
   ],
   "37423": [
-    "Raiffeisenbank Mittelbregenzerwald eGen",
+    "Raiffeisenbank Mittel- und Hinterbregenzerwald eGen",
     "RVVGAT2B423"
   ],
   "37424": [
@@ -2576,8 +2564,8 @@
     "RZSTAT2GXXX"
   ],
   "38001": [
-    "Raiffeisenbank Admont eGen",
-    "RZSTAT2G001"
+    "Raiffeisenbank Region Liezen eGen",
+    "RZSTAT2G215"
   ],
   "38010": [
     "Raiffeisenbank Weiz-Anger eGen",
@@ -2616,8 +2604,8 @@
     "RZSTAT2G071"
   ],
   "38072": [
-    "Raiffeisenbank Region Graz-Thalerhof eGen",
-    "RZSTAT2G477"
+    "Raiffeisenbank Kalsdorf-Lieboch-Stainz eGen",
+    "RZSTAT2G210"
   ],
   "38075": [
     "Raiffeisenbank Mittlere Südoststeiermark eGen",
@@ -2636,7 +2624,7 @@
     "RZSTAT2G094"
   ],
   "38102": [
-    "Raiffeisenbank Gleinstätten-Leutschach-Groß St. Florian eGen",
+    "Raiffeisenbank Gleinstätten-Leutschach-Wildon eGen",
     "RZSTAT2G102"
   ],
   "38103": [
@@ -2664,7 +2652,7 @@
     "RZSTAT2G113"
   ],
   "38118": [
-    "Raiffeisenbank Gleinstätten-Leutschach-Groß St. Florian eGen",
+    "Raiffeisenbank Gleinstätten-Leutschach-Wildon eGen",
     "RZSTAT2G102"
   ],
   "38120": [
@@ -2676,8 +2664,8 @@
     "RZSTAT2G077"
   ],
   "38128": [
-    "Raiffeisenbank Halbenrain-Tieschen eGen",
-    "RZSTAT2G128"
+    "Raiffeisenbank Region Radkersburg eGen",
+    "RZSTAT2G312"
   ],
   "38129": [
     "Raiffeisenbank Mariazellerland eGen",
@@ -2724,7 +2712,7 @@
     "RZSTAT2G206"
   ],
   "38210": [
-    "Raiffeisenbank Lieboch-Stainz eGen",
+    "Raiffeisenbank Kalsdorf-Lieboch-Stainz eGen",
     "RZSTAT2G210"
   ],
   "38211": [
@@ -2732,7 +2720,7 @@
     "RZSTAT2G487"
   ],
   "38215": [
-    "Raiffeisenbank Liezen-Rottenmann-Trieben eGen",
+    "Raiffeisenbank Region Liezen eGen",
     "RZSTAT2G215"
   ],
   "38223": [
@@ -2768,7 +2756,7 @@
     "RZSTAT2G368"
   ],
   "38262": [
-    "Raiffeisenbank Gleinstätten-Leutschach-Groß St. Florian eGen",
+    "Raiffeisenbank Gleinstätten-Leutschach-Wildon eGen",
     "RZSTAT2G102"
   ],
   "38266": [
@@ -2784,15 +2772,15 @@
     "RZSTAT2G103"
   ],
   "38292": [
-    "Raiffeisenbank Wildon-Preding eGen",
-    "RZSTAT2G499"
+    "Raiffeisenbank Gleinstätten-Leutschach-Wildon eGen",
+    "RZSTAT2G102"
   ],
   "38311": [
     "Raiffeisenbank Oststeiermark Nord eGen",
     "RZSTAT2G023"
   ],
   "38312": [
-    "Raiffeisenbank Bad Radkersburg-Klöch eGen",
+    "Raiffeisenbank Region Radkersburg eGen",
     "RZSTAT2G312"
   ],
   "38326": [
@@ -2816,7 +2804,7 @@
     "RZSTAT2G347"
   ],
   "38348": [
-    "Raiffeisenbank Liezen-Rottenmann-Trieben eGen",
+    "Raiffeisenbank Region Liezen eGen",
     "RZSTAT2G215"
   ],
   "38367": [
@@ -2876,8 +2864,8 @@
     "RZSTAT2G433"
   ],
   "38436": [
-    "Raiffeisenbank Straden eGen",
-    "RZSTAT2G436"
+    "Raiffeisenbank Region Radkersburg eGen",
+    "RZSTAT2G312"
   ],
   "38439": [
     "Raiffeisenbank Graz-Straßgang eGen",
@@ -2896,8 +2884,8 @@
     "RZSTAT2G347"
   ],
   "38477": [
-    "Raiffeisenbank Region Graz-Thalerhof eGen",
-    "RZSTAT2G477"
+    "Raiffeisenbank Kalsdorf-Lieboch-Stainz eGen",
+    "RZSTAT2G210"
   ],
   "38481": [
     "Raiffeisenbank Schladming-Gröbming eGen",
@@ -2912,8 +2900,8 @@
     "RZSTAT2G497"
   ],
   "38499": [
-    "Raiffeisenbank Wildon-Preding eGen",
-    "RZSTAT2G499"
+    "Raiffeisenbank Gleinstätten-Leutschach-Wildon eGen",
+    "RZSTAT2G102"
   ],
   "38503": [
     "Raiffeisenbank Süd-Weststeiermark eGen",
@@ -2956,16 +2944,16 @@
     "VSGKAT2KXXX"
   ],
   "39254": [
-    "Raiffeisen-Bezirksbank St. Veit a.d. Glan-Feldkirchen, registrierte Genossenschaft mit beschränkter Haftung",
+    "Raiffeisenbank Mittelkärnten eG",
     "RZKTAT2K475"
   ],
   "39255": [
     "Raiffeisenbank Mittelkärnten eG",
-    "RZKTAT2K511"
+    "RZKTAT2K475"
   ],
   "39257": [
-    "Raiffeisenbank Arnoldstein-Fürnitz eG",
-    "RZKTAT2K257"
+    "Raiffeisenbank Region Villach eG",
+    "RZKTAT2K496"
   ],
   "39267": [
     "Raiffeisen-Bezirksbank Spittal/Drau, registrierte Genossenschaft mit beschränkter Haftung",
@@ -2976,8 +2964,8 @@
     "RZKTAT2K271"
   ],
   "39272": [
-    "Raiffeisenbank Bleiburg registrierte Genossenschaft mit beschränkter Haftung",
-    "RZKTAT2K272"
+    "Raiffeisenbank Völkermarkt-Bleiburg eGen",
+    "RZKTAT2K546"
   ],
   "39288": [
     "Raiffeisenbank Eberndorf registrierte Genossenschaft mit beschränkter Haftung",
@@ -2988,23 +2976,23 @@
     "RZKTAT2K292"
   ],
   "39305": [
-    "Raiffeisenbank Arnoldstein-Fürnitz eG",
-    "RZKTAT2K257"
+    "Raiffeisenbank Region Villach eG",
+    "RZKTAT2K496"
   ],
   "39320": [
     "Raiffeisenbank Grafenstein-Magdalensberg und Umgebung, registrierte Genossenschaft mit beschränkter Haftung",
     "RZKTAT2K320"
   ],
   "39322": [
-    "Raiffeisenbank Oberdrautal-Weissensee, registrierte Genossenschaft mit beschränkter Haftung",
-    "RZKTAT2K322"
+    "Raiffeisenbank Großglockner-Weissensee eG",
+    "RZKTAT2K561"
   ],
   "39340": [
     "Raiffeisenbank Mittelkärnten eG",
-    "RZKTAT2K511"
+    "RZKTAT2K475"
   ],
   "39355": [
-    "Raiffeisenbank Region Wörthersee eG",
+    "Raiffeisenbank Wörthersee-Landskron-Gegendtal eG",
     "RZKTAT2K390"
   ],
   "39358": [
@@ -3012,23 +3000,23 @@
     "RZKTAT2KXXX"
   ],
   "39364": [
-    "Raiffeisenbank Kötschach - Mauthen, registrierte Genossenschaft mit beschränkter Haftung",
+    "Raiffeisenbank Karnische Region eG",
     "RZKTAT2K364"
   ],
   "39381": [
-    "Raiffeisenbank Landskron - Gegendtal, registrierte Genossenschaft mit beschränkter Haftung",
-    "RZKTAT2K381"
+    "Raiffeisenbank Wörthersee-Landskron-Gegendtal eG",
+    "RZKTAT2K390"
   ],
   "39383": [
-    "Raiffeisen Bank Villach registrierte Genossenschaft mit beschränkter Haftung",
+    "Raiffeisenbank Region Villach eG",
     "RZKTAT2K496"
   ],
   "39384": [
     "Raiffeisenbank Mittelkärnten eG",
-    "RZKTAT2K511"
+    "RZKTAT2K475"
   ],
   "39390": [
-    "Raiffeisenbank Region Wörthersee eG",
+    "Raiffeisenbank Wörthersee-Landskron-Gegendtal eG",
     "RZKTAT2K390"
   ],
   "39400": [
@@ -3040,7 +3028,7 @@
     "RZKTAT2K442"
   ],
   "39407": [
-    "Raiffeisen-Bezirksbank St. Veit a.d. Glan-Feldkirchen, registrierte Genossenschaft mit beschränkter Haftung",
+    "Raiffeisenbank Mittelkärnten eG",
     "RZKTAT2K475"
   ],
   "39411": [
@@ -3052,7 +3040,7 @@
     "RZKTAT2K412"
   ],
   "39431": [
-    "Raiffeisenbank Oberes Mölltal-Oberdrauburg eGen",
+    "Raiffeisenbank Großglockner-Weissensee eG",
     "RZKTAT2K561"
   ],
   "39436": [
@@ -3080,7 +3068,7 @@
     "RZKTAT2K481"
   ],
   "39475": [
-    "Raiffeisen-Bezirksbank St. Veit a.d. Glan-Feldkirchen, registrierte Genossenschaft mit beschränkter Haftung",
+    "Raiffeisenbank Mittelkärnten eG",
     "RZKTAT2K475"
   ],
   "39479": [
@@ -3092,7 +3080,7 @@
     "RZKTAT2K481"
   ],
   "39483": [
-    "Raiffeisen Bank Villach registrierte Genossenschaft mit beschränkter Haftung",
+    "Raiffeisenbank Region Villach eG",
     "RZKTAT2K496"
   ],
   "39487": [
@@ -3100,23 +3088,23 @@
     "RZKTAT2K487"
   ],
   "39491": [
-    "Raiffeisenbank Oberes Lavanttal registrierte Genossenschaft mit beschränkter Haftung",
+    "Raiffeisenbank Oberes Lavanttal - St. Paul eG",
     "RZKTAT2K491"
   ],
   "39496": [
-    "Raiffeisen Bank Villach registrierte Genossenschaft mit beschränkter Haftung",
+    "Raiffeisenbank Region Villach eG",
     "RZKTAT2K496"
   ],
   "39500": [
-    "Raiffeisenbank St. Paul im Lavanttal eGen",
-    "RZKTAT2K500"
+    "Raiffeisenbank Oberes Lavanttal - St. Paul eG",
+    "RZKTAT2K491"
   ],
   "39501": [
     "Raiffeisenbank Friesach-Metnitztal, registrierte Genossenschaft mit beschränkter Haftung",
     "RZKTAT2K501"
   ],
   "39505": [
-    "Raiffeisen-Bezirksbank St. Veit a.d. Glan-Feldkirchen, registrierte Genossenschaft mit beschränkter Haftung",
+    "Raiffeisenbank Mittelkärnten eG",
     "RZKTAT2K475"
   ],
   "39510": [
@@ -3125,14 +3113,14 @@
   ],
   "39511": [
     "Raiffeisenbank Mittelkärnten eG",
-    "RZKTAT2K511"
+    "RZKTAT2K475"
   ],
   "39543": [
-    "Raiffeisenbank Hermagor eG",
-    "RZKTAT2K543"
+    "Raiffeisenbank Karnische Region eG",
+    "RZKTAT2K364"
   ],
   "39546": [
-    "Raiffeisenbank Völkermarkt, registrierte Genossenschaft mit beschränkter Haftung",
+    "Raiffeisenbank Völkermarkt-Bleiburg eGen",
     "RZKTAT2K546"
   ],
   "39559": [
@@ -3140,16 +3128,12 @@
     "RZKTAT2K559"
   ],
   "39561": [
-    "Raiffeisenbank Oberes Mölltal-Oberdrauburg eGen",
+    "Raiffeisenbank Großglockner-Weissensee eG",
     "RZKTAT2K561"
   ],
   "40000": [
     "VOLKSBANK WIEN AG",
     "VBOEATWWXXX"
-  ],
-  "40074": [
-    "immigon portfolioabbau ag i.A.",
-    "IMMIAT21XXX"
   ],
   "40100": [
     "VOLKSBANK WIEN AG",
@@ -3439,10 +3423,6 @@
     "BAWAG P.S.K. Bank für Arbeit und Wirtschaft und Österreichische Postsparkasse Aktiengesellschaft",
     "BAWAATWWXXX"
   ],
-  "73800": [
-    "LEASFINANZ Bank GmbH",
-    "LEGMATW1XXX"
-  ],
   "74200": [
     "SPAR-FINANZ BANK AG",
     "SFIVATW1XXX"
@@ -3450,6 +3430,10 @@
   "75100": [
     "State Street Bank International GmbH Filiale Wien",
     "SBOSATWWXXX"
+  ],
+  "75910": [
+    "Stellantis Bank SA Niederlassung Österreich",
+    "OPBAATW2XXX"
   ],
   "76000": [
     "Porsche Bank Aktiengesellschaft",
@@ -3470,10 +3454,6 @@
   "76520": [
     "Liechtensteinische Landesbank (Österreich) AG",
     "COPRATWWXXX"
-  ],
-  "94648": [
-    "Viva Payment Services S.A. Zweigniederlassung Wien/Österreich",
-    "VPAYATW2XXX"
   ],
   "00100": [
     "Oesterreichische Nationalbank",

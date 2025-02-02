@@ -1,6 +1,6 @@
 # Current version should be loaded from
-# https://www.bundesbank.de/de/aufgaben/unbarer-zahlungsverkehr/serviceangebot/bankleitzahlen/download-bankleitzahlen-602592
-/src/data/*.txt
+# https://www.oenb.at/docroot/downloads_observ/sepa-zv-vz_gesamt.csv
+/src/data/*.csv
 
 # Project stuff
 /coverage/

@@ -4,7 +4,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 /**
  * bankdata-austria
- * Copyright (C) 2023 Klaus Kirnbauer <mail@kirnbauer.dev>
+ * Copyright (C) 2025 Klaus Kirnbauer <bankdata-austria@kirnbauer.mozmail.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
@@ -20,14 +20,73 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import csv from "csv-parser";
-import * as fs from "fs";
+import csv from 'csv-parser';
+import * as fs from 'fs';
+import * as https from 'https';
 import * as iconv from 'iconv-lite';
+import * as path from 'path';
 
-// Import the current bank data text file and convert it to JSON files.
+// Import the current bank data csv file and convert it to JSON files.
 // This should be done after the Nationalbank releases new data multiple
 // times a year. See:
 // https://www.oenb.at/Statistik/Klassifikationen/SEPA-Zahlungsverkehrs-Verzeichnis.html
+
+const downloadCsv = async (fileUrl: string, outputDir: string, outputFileName: string): Promise<string> => new Promise((resolve, reject) => {
+      const parsedUrl = new URL(fileUrl);
+      if (parsedUrl.protocol !== 'https:') {
+          return reject(new Error('Error: Only HTTPS URLs are allowed!'));
+      }
+
+      const outputPath = path.join(__dirname, outputDir, outputFileName);
+      if (!fs.existsSync(outputDir)) {
+          fs.mkdirSync(outputDir, { recursive: true });
+      }
+
+      console.log(`Downloading from: ${fileUrl} ...`);
+
+      https.get(fileUrl, (response) => {
+          if (response.statusCode !== 200) {
+              return reject(new Error(`Download failed: ${response.statusCode} ${response.statusMessage}`));
+          }
+
+          const chunks: Buffer[] = [];
+
+          response.on('data', (chunk: Buffer) => {
+            chunks.push(chunk);
+          });
+
+          response.on('end', () => {
+              const rawData: Buffer = Buffer.concat(chunks);
+
+              const utf8Data = iconv.decode(rawData, 'win1252');
+              const cleanedData = removeHeaderLines(utf8Data);
+
+              fs.writeFileSync(outputPath, cleanedData, 'utf-8');
+              console.log(`File saved in UTF-8: ${outputPath}`);
+              resolve(outputPath);
+          });
+
+      }).on('error', (err) => {
+          reject(new Error(`Download error: ${err.message}`));
+      });
+  });
+
+/**
+* Removes all lines until and including 'SEPA-Verzeichnis-Abfrage vom xx.xx.xxxx'.
+*/
+const removeHeaderLines = (data: string): string => {
+  const regex = /^(?:.*\r?\n)*?SEPA-Verzeichnis-Abfrage vom \d{2}\.\d{2}\.\d{4}.*\r?\n?/;
+  return data.replace(regex, '');
+};
+
+
+const main = async () => {
+  const url = 'https://www.oenb.at/docroot/downloads_observ/sepa-zv-vz_gesamt.csv'; 
+  const outputDir = '../data';
+  const outputFileName = 'sepa-zv-vz_gesamt.csv';
+  try {
+      const filePath = await downloadCsv(url, outputDir, outputFileName);
+      console.log(`Processing CSV: ${filePath}`);
 
 interface BankData {
   Bankenname: string;
@@ -41,7 +100,6 @@ const outputFilePath = `${__dirname}/../data/current.json`;
 const bankData: BankData[] = [];
 
 fs.createReadStream(csvFilePath)
-  .pipe(iconv.decodeStream('latin1'))
   .pipe(csv({ separator: ';' }))
   .on('data', (data) => {
     const { Bankleitzahl, Bankenname, 'SWIFT-Code': SWIFTCode } = data;
@@ -68,3 +126,9 @@ fs.createReadStream(csvFilePath)
       console.log('Conversion completed. JSON saved to:', outputFilePath);
     });
   });
+} catch (error) {
+  console.error(error);
+}
+};
+
+main().catch(console.error);
